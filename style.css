@@ -1,0 +1,478 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 20px;
+    font-family: 'Nunito Sans', 'Sans serif';
+    background-color: #fff;
+    font-weight: 300;
+    color: gray;
+    text-rendering: optimizeLegibility;
+}
+
+
+
+/* -------HEADER------- */
+
+.main-nav{
+    background-color: #000;
+}
+
+.content{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+
+.sociaux{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+    width: 24px;
+    height: 24px;
+}
+
+
+.liste-nav{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.liste-nav li{
+    margin-left: 25px;
+    
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 90%;
+}
+
+header{
+    background-image:linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)), url(images/piscine.webp);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+
+
+
+.text-header{
+    width: 600px;
+    position: absolute;
+    bottom: 30%;
+    left: 7%;
+}
+
+h1{
+    font-size: 240%;
+    font-family: 'Lato', 'Sans serif';
+    font-weight: 400;
+    color: #f1f1f1;
+    text-transform:capitalize;
+}
+
+.text-paragraphe{
+    font-size: 90%;
+    margin: 30px 0 20px 0;
+    font-family: 'Roboto', 'Sans serif';
+}
+
+.btn{
+    padding: 15px 30px;
+    background-color: transparent;
+    border: 2px solid #f1f1f1;
+}
+
+
+.indication-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #f1f1f1;
+    padding: 10px;
+}
+
+.indic-right{
+    position: absolute;
+    top: 50%;
+    left: 1%;
+}
+
+.indic-left{
+    position: absolute;
+    top: 50%;
+    right: 1%;
+}
+
+.formulaire{
+    width: 1200px;
+    height: 100px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -5%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+input{
+    padding: 20px 30px;
+}
+
+.btn-full{
+    background-color: #000;
+    margin:30px 0;
+    border: 0;
+}
+
+
+
+/* --------SECTION-1-------- */
+
+
+.section-1{
+    margin-top: 80px;
+    padding-bottom: 90px;
+}
+
+
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+
+hr{
+    border: none;
+    border-top: 1px double rgba(128, 128, 128, 0.363);
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+ 
+}
+
+
+hr::after{
+    background: #fff;
+    content: 'Where to go';
+    padding: 0 40px;
+    position: relative;
+    top: -25px;
+    font-size: 180%;
+    font-family: 'Lato','Sans serif';
+    font-weight: 400;
+}
+
+.text-parag{
+    width: 700px;
+    margin: 0 auto;
+}
+
+
+.paragraphe{
+    font-family: 'Barlow Condensed', sans-serif;    
+    font-style: italic;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.row{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 30px;
+}
+
+.col{
+    width: 400px;
+    height: auto;
+    background-color: #000;
+}
+
+.col img{
+    width: 100%;
+    height: 450px;
+}
+
+h4{
+    font-family: 'Lato', 'Sans serif';
+    font-size: 90%;
+    padding-left: 15px;
+}
+
+span{
+    font-size: 70%;
+    padding-left: 15px;
+    color: #776657;
+}
+
+.btn-ghost{
+    background-color: #000;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin:30px 0;
+    border: 0;
+}
+
+
+
+/* -------SECTION-2------- */
+
+.section-2{
+    background-color: #f9fafe;
+    margin-top: 80px;
+    padding-bottom: 90px;
+}
+
+
+.line{
+    border: none;
+    border-top: 1px double rgba(128, 128, 128, 0.363);
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+.line::after{
+    background:#f9fafe ;
+    content: 'Top Summer Looks.';
+    padding: 0 40px;
+    position: relative;
+    top: -25px;
+    font-size: 180%;
+    font-family: 'Lato','Sans serif';
+    font-weight: 400;
+}
+
+.col-img{
+    background: none;
+    width: 300px;
+}
+
+.col-img img{
+    width: 100%;
+    height: 300px;
+}
+
+
+/* ------SECTION-3------ */
+
+.section-3{
+    margin-top: 80px;
+    padding-bottom: 90px;
+}
+
+.col-vente{
+    width: 250px;
+    text-align: center;
+    color: #333;
+}
+
+
+.col-vente img{
+    width: 100%;
+    height: 250px;
+}
+
+
+.col-vente img:hover{
+    background-color:#f9fafe;
+}
+
+.icon-big{
+    float: right;
+}
+
+
+.col-vente p{
+    font-size: 60%;
+}
+
+.col-vente strong{
+    font-size: 60%;
+    margin-top: 0;
+}
+
+
+/* -------SECTION-4------- */
+
+.section-4{
+    background-color:#f9fafe ;
+    margin-top: 120px;
+    padding: 40px 0 90px 0;
+}
+
+h3, .title1{
+    font-family: 'Lato', 'Sans serif';
+    font-size: 120%;
+    font-weight: 400;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.title1{
+    text-align: center;
+    font-size: 180%;
+}
+
+.col-pub{
+    width: 300px;
+}
+
+.col-pub img{
+   width: 100%;
+   height: 250px;
+}
+
+
+.line-bottom{
+    border: none;
+    border-top: 1px double rgba(128, 128, 128, 0.363);
+    color: #333;
+    overflow: visible;
+    height: 5px;
+}
+
+
+.line-bottom::after{
+    background: #fff;
+    padding: 0 40px;
+    position: relative;
+    top: -25px;
+    font-size: 180%;
+    font-family: 'Lato','Sans serif';
+    font-weight: 400;
+}
+
+
+.indica{
+    display:flex;
+}
+
+.icons{
+    width: 50px;
+    height: 50px;
+}
+
+
+.icon-line{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    padding: 20px;
+    position: absolute;
+    left: 8%;
+}
+
+.icon-vert{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    padding: 20px;
+    position: absolute;
+    left:0;
+}
+
+.flex-line{
+    position: relative;
+    margin-top: 30px;
+
+}
+
+
+/* ------SECTION-5--------- */
+
+
+.section-5{
+    margin-top: 120px;
+    padding: 40px 0 90px 0;
+}
+
+
+/* ------SECTION-6--------- */
+
+.section-6{
+    margin-top: 80px;
+    padding-bottom: 90px;
+}
+
+.bloc-illustration{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.text-illustre{
+    width: 600px;
+}
+
+.text-illustre img{
+    width: 100%;
+    height: 500px;
+
+}
+
+.box-illustration{
+    display: block;
+}
+
+.small-illustration{
+    width: 350px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+}
+
+
+.card-illustration{
+    display: flex;
+}
+
+
+.small-illustration img{
+    width: 100%;
+}
+
+.parag{
+    margin-top: 5px;
+    text-align:start;
+}
+
+
+
+/* --------footer-------- */
+
+
+footer{
+    background-color: #000;
+    padding: 5px 0;
+    margin-top: 10px;
+}
+
+
